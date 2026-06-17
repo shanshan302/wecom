@@ -27,6 +27,7 @@ Each report is named `reports/YYYY-MM-DD.md` and uses this structure:
 ## 官方与高可信更新
 ## AI / Agent / MCP / 智能机器人动态
 ## 消息发送与 API 开放迹象
+## 会议/活动雷达
 ## 值得继续跟进的链接
 ## 未证实或低可信信号
 ## 明日关注点
@@ -48,6 +49,9 @@ The daily task should search and compare sources across:
 - WeChat Open Class and WeChat AI ecosystem announcements.
 - GitHub repositories such as `WeComTeam/wecom-cli` and related MCP / Agent tooling.
 - Reputable Chinese technology media and developer communities.
+- Developer conferences, product launch events, technical salons, hackathons, and official meetup pages that may include WeCom, WeChat, Tencent Cloud, AI Agent, MCP, OpenClaw, or enterprise collaboration topics.
+
+The daily task should not use short-video or broad social feeds as regular sources. Excluded routine sources include Bilibili, YouTube, Jike, Weibo, and X. Only cite them if a later human request explicitly asks for social/video monitoring.
 
 Core keywords:
 
@@ -61,6 +65,11 @@ Core keywords:
 - `WeComTeam wecom-cli`
 - `腾讯云 ADP 企业微信`
 - `微信 AI 智能体 开发者接入`
+- `腾讯云 开发者大会 AI Agent`
+- `微信公开课 企业微信 AI 开发者`
+- `腾讯云 AI 产业应用大会 ADP`
+- `AI Agent 开发者大会 企业微信`
+- `OpenClaw 开发者活动 企业微信`
 
 ## Judgement Criteria
 
@@ -71,6 +80,7 @@ The report should emphasize whether any signal changes one of these boundaries:
 - Send mode: active push, callback response, task creation, member-confirmed group send, or webhook.
 - Permission model: new scope, new bot mode, new API mode, or new connector authorization.
 - Operational limits: frequency caps, confirmation requirements, audit controls, or availability by edition.
+- Event value: whether a conference or salon is relevant enough to attend, based on agenda fit, speaker/source authority, registration status, location, date, and likelihood of WeCom / Tencent Cloud / Agent product announcements.
 
 ## Automation Behavior
 
